@@ -11,8 +11,8 @@
     <groupId>com.example.demo</groupId>
     <artifactId>ecom-service-register</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ecom-service-register</name>
-    <description>ecom-service-register</description>
+    <name>service-register</name>
+    <description>ecom :: Service Registry</description>
     <properties>
         <java.version>11</java.version>
         <spring-cloud.version>2020.0.3</spring-cloud.version>
