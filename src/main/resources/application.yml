@@ -9,3 +9,7 @@ eureka:
 spring:
   application:
     name: service-registry
+  boot:
+    admin:
+      client:
+        url: http://localhost:9090
