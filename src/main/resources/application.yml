@@ -5,6 +5,8 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
+  instance:
+    preferIpAddress: true
 
 spring:
   application:
@@ -12,4 +14,6 @@ spring:
   boot:
     admin:
       client:
-        url: http://localhost:9090
+        url: ${BOOT_ADMIN_URL:http://localhost:9090}
+
+debug: ${DEBUG:false}
